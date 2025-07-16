@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <record id="view_sm_class_info_form" model="ir.ui.view">
+            <field name="name">class.info.form</field>
+            <field name="model">class.info</field>
+            <field name="arch" type="xml">
+                <form string="Class Details">
+                    <sheet>
+                        <field name="class_standard"/>
+                        <field name="student_ids"/>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+
+        <record id="view_sm_class_info_list" model="ir.ui.view">
+            <field name="name">class.info.list</field>
+            <field name="model">class.info</field>
+            <field name="arch" type="xml">
+                <list editable="top" create="1" delete="1" multi_edit="1" string="Chart of accounts"  open_form_view="True">
+                    <field name="class_standard"/>
+                    <field name="student_ids"/>
+                </list>
+            </field>
+        </record>
+
+    </data>
+</odoo>
