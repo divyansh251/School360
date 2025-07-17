@@ -14,17 +14,6 @@
             </field>
         </record>
 
-        <record id="view_classes_info_form_1" model="ir.ui.view">
-            <field name="name">classes.info.form</field>
-            <field name="model">class.info</field>
-            <field name="arch" type="xml">
-                <form string="School's Class Details">
-                    <field name="class_standard"/>
-                    <field name="student_ids"/>
-                </form>
-            </field>
-        </record>
-
         <record id="view_sm_school_info_list" model="ir.ui.view">
             <field name="name">school.info.list</field>
             <field name="model">school.info</field>
@@ -32,7 +21,6 @@
                 <list editable="top" create="1" delete="1" multi_edit="1" string="School">
                     <field name="school_name"/>
                     <field name="class_ids"/>
-                    <button type="object" class="btn btn-primary" name="action_view_classes">View Classes</button>
                 </list>
             </field>
         </record>
