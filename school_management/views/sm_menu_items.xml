@@ -3,7 +3,7 @@
     <!-- Top menu item -->
     <menuitem name="School360 ERP"
         id="menu_sm_school"
-        action="action_open_school_form_default"
+        action="action_sm_school_info"
         sequence="1"/>
 
     <menuitem name="Classes"
