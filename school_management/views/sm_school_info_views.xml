@@ -5,10 +5,12 @@
             <field name="name">school.info.form</field>
             <field name="model">school.info</field>
             <field name="arch" type="xml">
-                <form string="School Details">
+                <form string="School Details" create="0">
                     <sheet>
-                        <field name="school_name"/>
-                        <field name="class_ids"/>
+                        <group>
+                            <field name="school_name"/>
+                            <field name="principle_name"/>
+                        </group>
                     </sheet>
                 </form>
             </field>
@@ -18,9 +20,8 @@
             <field name="name">school.info.list</field>
             <field name="model">school.info</field>
             <field name="arch" type="xml">
-                <list editable="top" create="1" delete="1" multi_edit="1" string="School">
-                    <field name="school_name"/>
-                    <field name="class_ids"/>
+                <list string="School">
+
                 </list>
             </field>
         </record>
