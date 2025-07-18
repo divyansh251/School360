@@ -7,11 +7,29 @@
             <field name="arch" type="xml">
                 <form string="School Details" create="0">
                     <sheet>
+                        <div style="text-align: center; margin-top: -10px; margin-bottom: 20px;">
+                            <h1 style="color: red; font-size: 32px; font-weight: bold;">
+                                <field name="school_name" readonly="1" nolabel="1"/>
+                            </h1>
+                        </div>
+
                         <group>
-                            <field name="school_name"/>
-                            <field name="principle_name"/>
+                            <field name="principal_name"/>
                         </group>
                     </sheet>
+                </form>
+            </field>
+        </record>
+
+        <record id="view_sm_school_creation_form" model="ir.ui.view">
+            <field name="name">school.info.form</field>
+            <field name="model">school.info</field>
+            <field name="arch" type="xml">
+                <form string="School Creation">
+                    <group>
+                        <field name="school_name"/>
+                        <field name="principal_name"/>
+                    </group>
                 </form>
             </field>
         </record>
