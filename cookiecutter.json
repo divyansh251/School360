@@ -1,10 +1,10 @@
 {
   "name": "School Management",
-  "project_name": "My Awesome Project",
+  "project_name": "Project",
   "version": "1.0",
-  "summary": "Manage teachers, students, and staff in a school",
+  "summary": "Manage",
   "category": "Education",
   "author": "Divyansh",
   "repo_name": "School360",
-  "project_slug": "school360",
+  "project_slug": "school"
 }
