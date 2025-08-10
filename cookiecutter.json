@@ -1,5 +1,6 @@
 {
   "name": "School Management",
+  "project_name": "My Awesome Project",
   "version": "1.0",
   "summary": "Manage teachers, students, and staff in a school",
   "category": "Education",

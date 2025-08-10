@@ -1,1 +1,1 @@
-# School360
+# {{ cookiecutter.project_name }}
